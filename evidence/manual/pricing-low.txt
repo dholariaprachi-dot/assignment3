@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 5
+	at PricingService.getDiscountForTier(PricingService.java:28)
+	at PricingService.applyDiscount(PricingService.java:35)
+	at PricingService.main(PricingService.java:44)

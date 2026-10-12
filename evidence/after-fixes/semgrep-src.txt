@@ -1,0 +1,16 @@
+                  
+                  
+┌────────────────┐
+│ 1 Code Finding │
+└────────────────┘
+                                        
+  [36m[22m[24m  src/LoginService.java[0m
+    ❯❱ java.lang.security.audit.crypto.use-of-md5.use-of-md5
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          Detected MD5 hash algorithm which is considered insecure. MD5 is not collision resistant and is
+          therefore not suitable as a cryptographic signature. Use HMAC instead.                         
+          Details: https://sg.run/ryJn                                                                   
+                                                                                                         
+           ▶▶┆ Autofix ▶ "SHA-512"
+           17┆ MessageDigest md = MessageDigest.getInstance("MD5");
+

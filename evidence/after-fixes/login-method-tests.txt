@@ -1,0 +1,8 @@
+PASS: Valid credentials follow the database result
+PASS: Wrong password is rejected
+PASS: Injection input receives a negative simulated result
+PASS: SQL template remains fixed
+PASS: Injection input is bound separately as parameter 1
+PASS: Password hash is bound separately as parameter 2
+PASS: Old administrator credentials do not bypass authentication
+PASS: Database outage does not grant administrator access

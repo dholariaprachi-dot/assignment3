@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.IllegalArgumentException: Invalid membership tier
+	at PricingService.getDiscountForTier(PricingService.java:29)
+	at PricingService.applyDiscount(PricingService.java:38)
+	at PricingService.main(PricingService.java:47)

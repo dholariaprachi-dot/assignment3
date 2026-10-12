@@ -1,0 +1,2 @@
+Constructed SQL: SELECT * FROM users WHERE username = 'alice' AND password = 'cc4436eff149ba9761aaac07b36360ea'
+Hardcoded admin match: false
